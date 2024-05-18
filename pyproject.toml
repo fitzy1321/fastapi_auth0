@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fastapi-auth0"
+version = "0.1.0"
+description = "FastAPI Auth0 Token Verifier"
+authors = ["fitzypop <32967490+fitzypop@users.noreply.github.com>"]
+readme = "README.md"
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pyjwt = "^2.8.0"
+fastapi = "^0.111.0"
+strenum = "^0.4.15"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.4.4"
+pytest = "^8.2.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
